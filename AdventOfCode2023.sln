@@ -2,9 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 01 - Trebuchet", "Day 01 - Trebuchet\Day 01 - Trebuchet.csproj", "{23E0CD2E-A671-4D78-9FF6-E72C207E78B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 01 - Trebuchet - Star", "Day 01 - Trebuchet - Start\Day 01 - Trebuchet - Star.csproj", "{2351ABFD-50A2-4478-96AC-D0E4F6105DB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 01 - Trebuchet - Star", "Day 01 - Trebuchet - Star\Day 01 - Trebuchet - Star.csproj", "{2351ABFD-50A2-4478-96AC-D0E4F6105DB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 02 - Cube Conundrum", "Day 02 - Cube Conundrum\Day 02 - Cube Conundrum.csproj", "{DA4B761C-28D3-4FD4-8701-922CE540810C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 02 - Cube Conundrum - Star", "Day 02 - Cube Conundrum - Star\Day 02 - Cube Conundrum - Star.csproj", "{88B60529-294A-4845-871F-9ABE2715160F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 		{DA4B761C-28D3-4FD4-8701-922CE540810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA4B761C-28D3-4FD4-8701-922CE540810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA4B761C-28D3-4FD4-8701-922CE540810C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B60529-294A-4845-871F-9ABE2715160F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B60529-294A-4845-871F-9ABE2715160F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B60529-294A-4845-871F-9ABE2715160F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B60529-294A-4845-871F-9ABE2715160F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

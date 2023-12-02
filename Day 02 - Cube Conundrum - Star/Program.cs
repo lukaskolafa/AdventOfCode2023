@@ -4,7 +4,7 @@ bool test = false;
 
 string[] allLines = File.ReadAllLines(test ? @"..\..\..\test.txt" : @"..\..\..\input.txt");
 
-HashSet<int> validSets = new HashSet<int>(allLines.Length);
+List<int> powers = new List<int>(allLines.Length);
 
 for (int i = 0; i < allLines.Length; i++)
 {
@@ -22,10 +22,12 @@ for (int i = 0; i < allLines.Length; i++)
 
     bool valid = true;
 
+    int minBlue = 0;
+    int minRed = 0;
+    int minGreen = 0;
+
     foreach (var set in sets)
     {
-        Console.WriteLine("---");
-
         var split2 = set.Split(",", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
 
         foreach (var item in split2)
@@ -35,18 +37,14 @@ for (int i = 0; i < allLines.Length; i++)
             var color = split3[1];
             var count = int.Parse(split3[0]);
 
-            if ((color == "red" && count > 12) || (color == "blue" && count > 14) || (color == "green" && count > 13))
-            {
-                valid = false;
-                break;
-            }
+            if (color == "red" && count > minRed) { minRed = count; }
+            if (color == "blue" && count > minBlue) { minBlue = count; }
+            if (color == "green" && count > minGreen) { minGreen = count; }
         }
     }
 
-    if (valid)
-    {
-        validSets.Add(id);
-    }
+    powers.Add(minRed * minBlue * minGreen);
+    Console.WriteLine($"ID: {id} Power: {minRed * minBlue * minGreen}");
 }
 
-Console.WriteLine(validSets.Sum());
+Console.WriteLine(powers.Sum());
