@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 02 - Cube Conundrum", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 02 - Cube Conundrum - Star", "Day 02 - Cube Conundrum - Star\Day 02 - Cube Conundrum - Star.csproj", "{88B60529-294A-4845-871F-9ABE2715160F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 03 - Gear Ratios", "Day 03 - Gear Ratios\Day 03 - Gear Ratios.csproj", "{D20D2C64-D4C0-440C-9640-442B185B11EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 03 - Gear Ratios - Star", "Day 03 - Gear Ratios - Star\Day 03 - Gear Ratios - Star.csproj", "{72907A72-F669-4372-A7E0-2F1CA2540E69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{88B60529-294A-4845-871F-9ABE2715160F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B60529-294A-4845-871F-9ABE2715160F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B60529-294A-4845-871F-9ABE2715160F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20D2C64-D4C0-440C-9640-442B185B11EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20D2C64-D4C0-440C-9640-442B185B11EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20D2C64-D4C0-440C-9640-442B185B11EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20D2C64-D4C0-440C-9640-442B185B11EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
