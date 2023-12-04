@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 03 - Gear Ratios", "Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 03 - Gear Ratios - Star", "Day 03 - Gear Ratios - Star\Day 03 - Gear Ratios - Star.csproj", "{72907A72-F669-4372-A7E0-2F1CA2540E69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 04 - Scratchcards", "Day 04 - Scratchcards\Day 04 - Scratchcards.csproj", "{99FF096F-A8C5-425E-AFAD-7916C2D4F90D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 04 - Scratchcards - Star", "Day 04 - Scratchcards - Star\Day 04 - Scratchcards - Star.csproj", "{939AA4C6-5265-4908-A961-01BF05C09E9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72907A72-F669-4372-A7E0-2F1CA2540E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FF096F-A8C5-425E-AFAD-7916C2D4F90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FF096F-A8C5-425E-AFAD-7916C2D4F90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FF096F-A8C5-425E-AFAD-7916C2D4F90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FF096F-A8C5-425E-AFAD-7916C2D4F90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
