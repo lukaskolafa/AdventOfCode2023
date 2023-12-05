@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 04 - Scratchcards", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 04 - Scratchcards - Star", "Day 04 - Scratchcards - Star\Day 04 - Scratchcards - Star.csproj", "{939AA4C6-5265-4908-A961-01BF05C09E9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 05 - If You Give A Seed A Fertilizer", "Day 05 - If You Give A Seed A Fertilizer\Day 05 - If You Give A Seed A Fertilizer.csproj", "{0A4E3C03-3D54-468B-B724-950ACE7A1696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 05 - If You Give A Seed A Fertilizer - Star", "Day 05 - If You Give A Seed A Fertilizer - Star\Day 05 - If You Give A Seed A Fertilizer - Star.csproj", "{E4F91FF3-1E2D-4BD0-B888-0448DB1C448D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939AA4C6-5265-4908-A961-01BF05C09E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4E3C03-3D54-468B-B724-950ACE7A1696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4E3C03-3D54-468B-B724-950ACE7A1696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4E3C03-3D54-468B-B724-950ACE7A1696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4E3C03-3D54-468B-B724-950ACE7A1696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F91FF3-1E2D-4BD0-B888-0448DB1C448D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F91FF3-1E2D-4BD0-B888-0448DB1C448D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F91FF3-1E2D-4BD0-B888-0448DB1C448D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F91FF3-1E2D-4BD0-B888-0448DB1C448D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
