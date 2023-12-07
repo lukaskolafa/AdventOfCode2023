@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 06 - Wait For It - Star
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 07 - Camel Cards", "Day 07 - Camel Cards\Day 07 - Camel Cards.csproj", "{13A45709-27CF-4884-BEB1-63D0D3AEE43F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 07 - Camel Cards - Star", "Day 07 - Camel Cards - Star\Day 07 - Camel Cards - Star.csproj", "{4DB60A2F-63F2-4616-9062-DB5D0C50567A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{13A45709-27CF-4884-BEB1-63D0D3AEE43F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A45709-27CF-4884-BEB1-63D0D3AEE43F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A45709-27CF-4884-BEB1-63D0D3AEE43F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
