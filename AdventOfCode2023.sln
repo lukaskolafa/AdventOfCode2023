@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 07 - Camel Cards", "Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 07 - Camel Cards - Star", "Day 07 - Camel Cards - Star\Day 07 - Camel Cards - Star.csproj", "{4DB60A2F-63F2-4616-9062-DB5D0C50567A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 08 - Haunted Wasteland", "Day 08 - Haunted Wasteland\Day 08 - Haunted Wasteland.csproj", "{18FE0B21-F9BD-4A78-BD2A-FE20C5DBBA48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB60A2F-63F2-4616-9062-DB5D0C50567A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FE0B21-F9BD-4A78-BD2A-FE20C5DBBA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FE0B21-F9BD-4A78-BD2A-FE20C5DBBA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FE0B21-F9BD-4A78-BD2A-FE20C5DBBA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FE0B21-F9BD-4A78-BD2A-FE20C5DBBA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
