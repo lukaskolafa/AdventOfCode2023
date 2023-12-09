@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 08 - Haunted Wasteland 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 09 - Mirage Maintenance", "Day 09 - Mirage Maintenance\Day 09 - Mirage Maintenance.csproj", "{C3CBF127-3FEF-4202-B8CC-33482DF49F52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 09 - Mirage Maintenance - Star", "Day 09 - Mirage Maintenance - Star\Day 09 - Mirage Maintenance - Star.csproj", "{B32E40B2-310E-4916-8D49-60852E463880}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -108,5 +110,9 @@ Global
 		{C3CBF127-3FEF-4202-B8CC-33482DF49F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3CBF127-3FEF-4202-B8CC-33482DF49F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3CBF127-3FEF-4202-B8CC-33482DF49F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32E40B2-310E-4916-8D49-60852E463880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32E40B2-310E-4916-8D49-60852E463880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32E40B2-310E-4916-8D49-60852E463880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32E40B2-310E-4916-8D49-60852E463880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

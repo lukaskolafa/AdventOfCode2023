@@ -2,6 +2,8 @@
 
 bool test = false;
 
+// Too low 919
+
 var input = File.ReadLines(test ? @"..\..\..\test.txt" : @"..\..\..\input.txt").ToArray();
 
 List<long[]> data = new List<long[]>();
@@ -23,7 +25,7 @@ foreach (long[] row in data)
 
     bool shouldBreakNextRound = false;
 
-    for (int i = row.Length - 1; i >= 0; i--)
+    for (int i = 0; i < row.Length - 1; i++)
     {
         var newRow = new List<long>();
         pyramid.Add(newRow);
@@ -35,29 +37,17 @@ foreach (long[] row in data)
         {
             if (j == 0)
             {
-                diff = row[i] - row[i - 1];
+                diff = row[i + 1] - row[i];
             }
             else
             {
-                diff = pyramid[j - 1][height - j - 1] - pyramid[j - 1][height - j];
+                diff = pyramid[j - 1][height - j] - pyramid[j - 1][height - j - 1];
             }
 
             pyramid[j].Add(diff);
         }
 
-        if (shouldBreakNextRound && diff == 0)
-        {
-            break;
-        }
-
-        if (diff == 0)
-        {
-            shouldBreakNextRound = true; // We can break only if we have 2 zeros in a row, because one zero can be still a rising graph crossing the x axis
-        }
-        else
-        {
-            shouldBreakNextRound = false;
-        }
+        // no breaking if 0, even in case two in a row, we got bad result
     }
 
     // Debug
@@ -69,22 +59,23 @@ foreach (long[] row in data)
     }
     Console.WriteLine();
 
-    long sum = 0;
+    long nextInRow = 0;
     for (int h = height - 1; h >= 0; h--)
     {
         if (h > 0)
         {
-            sum += pyramid[h - 1][0];
+            nextInRow = pyramid[h - 1][0] - nextInRow;
         }
         else
         {
-            sum += row[^1];
+            nextInRow = row[0] - nextInRow;
         }
+
+        Console.Write(nextInRow + ", ");
     }
 
-    Console.WriteLine(sum);
-
-    result += sum;
+    result += nextInRow;
+    Console.WriteLine();
 }
 
 Console.WriteLine("====================================");
