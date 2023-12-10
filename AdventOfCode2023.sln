@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 09 - Mirage Maintenance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 10 - Pipe Maze", "Day 10 - Pipe Maze\Day 10 - Pipe Maze.csproj", "{C3F6869D-533C-4275-B3D9-9FADAE516C5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 10 - Pipe Maze - Star", "Day 10 - Pipe Maze - Star\Day 10 - Pipe Maze - Star.csproj", "{3E4282C9-5897-45B2-99E5-8C21743E5785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{C3F6869D-533C-4275-B3D9-9FADAE516C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3F6869D-533C-4275-B3D9-9FADAE516C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3F6869D-533C-4275-B3D9-9FADAE516C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4282C9-5897-45B2-99E5-8C21743E5785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4282C9-5897-45B2-99E5-8C21743E5785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4282C9-5897-45B2-99E5-8C21743E5785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4282C9-5897-45B2-99E5-8C21743E5785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
