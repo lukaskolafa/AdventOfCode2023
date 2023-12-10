@@ -236,7 +236,7 @@ public class Connection
             case '7': this.Directions = new [] { Direction.South, Direction.West}; break;
             case 'F': this.Directions = new [] { Direction.South, Direction.East}; break;
             case '.': this.Directions = Array.Empty<Direction>(); break;
-            case 'S': this.Directions = new [] { Direction.North, Direction.South, Direction.West, Direction.East }; break; // Starting point is a special case, we have to try all directions to find the first step.
+            case 'S': this.Directions = new [] { Direction.North, Direction.South, Direction.West, Direction.East }; break; // Starting point is a special case, we have to try all directions to find the first step. The order of these values define the direction, based on the direction Inner/Outer marks will be switched, so make sure the order matches your data.
             default: throw new Exception("Unknown pipe");
         }
     }
